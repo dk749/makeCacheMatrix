@@ -1,5 +1,5 @@
-# makeCacheMatrix
-makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
+
+#makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
   s <- NULL
   set <- function(y) {
     x <<- y
